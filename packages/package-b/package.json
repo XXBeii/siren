@@ -1,6 +1,6 @@
 {
   "name": "package-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "wangjx2018 <wangjx2018@chianunicom.cn>",
   "homepage": "https://github.com/XXBeii/siren#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/XXBeii/siren/issues"
   },
   "dependencies": {
-    "package-a": "^0.0.1"
+    "package-a": "^0.0.2"
   }
 }
