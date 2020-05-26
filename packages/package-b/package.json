@@ -1,5 +1,5 @@
 {
-  "name": "package-b",
+  "name": "@private/package-b",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "wangjx2018 <wangjx2018@chianunicom.cn>",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://101.32.49.146:7001/"
+    "registry": "http://101.32.49.146:7001/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
