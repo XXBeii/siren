@@ -1,0 +1,5 @@
+43 error Error: Command failed: git tag @private/monorepo@1.0.1 -m @private/monorepo@1.0.1
+43 error fatal: tag '@private/monorepo@1.0.1' already exists
+43 error
+43 error     at makeError (D:\library-test\siren\node_modules\execa\index.js:174:9)
+43 error     at Promise.all.then.arr (D:\library-test\siren\node_modules\execa\index.js:278:16)
