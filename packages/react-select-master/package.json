@@ -1,6 +1,5 @@
 {
   "name": "@private/monorepo",
-  "private": true,
   "version": "1.0.3",
   "description": "A Select control built with and for ReactJS",
   "author": "Jed Watson",
