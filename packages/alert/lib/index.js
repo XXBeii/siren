@@ -14,6 +14,7 @@ const Alert = ({ children, kind = 'info', ...rest }) => (
     className={prefixCls}
     style={{
       background: kinds[kind],
+      ZX
     }}
     {...rest}
   >
