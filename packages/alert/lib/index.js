@@ -14,12 +14,15 @@ const Alert = ({ children, kind = 'info', ...rest }) => (
     className={prefixCls}
     style={{
       background: kinds[kind],
-      ZX
     }}
     {...rest}
   >
     {children}
   </div>
 );
+
+Alert.propTypes = {
+  kind: t.oneOf(['info', 'positive', 'negative', 'warning']),
+};
 
 export default Alert;

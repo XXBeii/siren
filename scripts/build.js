@@ -1,11 +1,13 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const minimist = require('minimist')
+const path = require('path')
+const webpack = require('webpack')
+const fs = require('fs')
+
 const rawArgs = process.argv.slice(2)
 const args = minimist(rawArgs)
-const webpack = require('webpack')
-const webpackConfig = require('../webpack.config')
-const fs = require('fs')
-const path = require('path')
 const packages = fs.readdirSync(path.resolve(__dirname, '../packages/'))
+const webpackConfig = require('../webpack.config')
 
 // 获取外部依赖配置
 function getExternals (dependencies) {
