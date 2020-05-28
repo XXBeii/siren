@@ -5,7 +5,7 @@
   "author": "wangjx2018 <wangjx2018@chianunicom.cn>",
   "homepage": "https://github.com/XXBeii/siren#readme",
   "license": "ISC",
-  "main": "lib/alert.js",
+  "main": "dist/@private/alert.min.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://101.32.49.146:7001/"
+    "registry": "http://101.32.49.146:7001/",
+    "message": "chore(release): alert publish"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8"
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
